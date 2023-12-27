@@ -1,5 +1,5 @@
 {
-  "history_forecast_ratio": 10,
+  "history_forecast_ratio": 20,
   "seasonality_mode": "multiplicative",
   "growth": "linear",
   "random_state": 0,
