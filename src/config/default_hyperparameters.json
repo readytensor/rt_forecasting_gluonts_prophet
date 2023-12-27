@@ -1,0 +1,7 @@
+{
+  "history_forecast_ratio": 10,
+  "seasonality_mode": "multiplicative",
+  "growth": "linear",
+  "random_state": 0,
+  "use_exogenous": true
+}
