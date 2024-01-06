@@ -16,6 +16,22 @@ The following are the requirements for using your data with this model:
 
 ---
 
+### Covariates Support:
+
+Past :x:
+
+Future :x:
+
+Static :x:
+
+---
+
+### Important note:
+
+#### This model requires both training and testing files for the training process.
+
+---
+
 Here are the highlights of this implementation: <br/>
 
 - A **Prophet Forecaster** algorithm built using **GluonTS**
@@ -88,10 +104,6 @@ In this section we cover the following:
 5. To run batch predictions, place the prediction data file in the `model_inputs_outputs/inputs/data/testing` directory in the bind mount. Then issue the command: <br/>
    `docker run -v <path_to_mount_on_host>/model_inputs_outputs:/opt/model_inputs_outputs forecaster_img predict` <br/>
    This will load the artifacts and create and save the predictions in a file called `predictions.csv` in the path `model_inputs_outputs/outputs/predictions/` in the bind mount.
-
-### Important note:
-
-#### This model requires both training and testing files for the training process.
 
 ## Requirements
 
